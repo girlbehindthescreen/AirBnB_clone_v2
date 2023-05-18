@@ -8,7 +8,7 @@ from flask import Flask
 app = Flask("web_flask")
 
 
-@app.route('/airbnb-onepage', strict_slashes=False)
+@app.route("/airbnb-onepage/", strict_slashes=False)
 def hello():
     """Return a given string"""
     return ("Hello HBNB!")
